@@ -1,27 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shravani</title>
-    <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="icon" href="favicon.ico">
+  <meta charset="utf-8">
+  <title>Shravani's Web page!</title>
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="icon" href="favicon.ico">
 </head>
+<style>
+  body{
+    margin: auto;
+    background-color: #D8FFF5;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #072227;
+  }
+
+  hr{
+    border-color: #072227;
+    border-width: thick;
+    border-style: none;
+    border-top-style: dotted;
+    width: 3%;
+    height: 0px
+  }
+
+h1, h2, h3{
+  font-style: italic;
+}
+
+a{
+  font-style: italic;
+  text-decoration: underline;
+  color: #208eaa;
+  font-size: large;
+  font-weight: bold;
+}
+
+footer{
+  width: auto;
+  height: auto;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+  background-color: #072227;
+  top: 105px;
+}
+
+footer a{
+  display: inline-flex;
+  margin:2px;
+  padding: 5px;
+  color: #D8FFF5;
+}
+footer p{
+  display: inline-flex;
+  margin: 2px;
+  padding: 5px;
+  font-size: large;
+  font-weight: bold;
+  color: #D8FFF5;
+}
+
+section {
+  margin: 10px;
+}
+</style>
 <body>
-    <div class="top">
-        <img class="topCloud" src="Images/cloud.png" alt="cloud">
-        <div class="text1"><h1>Namastey! I'm Shravani,</h1>
-            <p>A Second Year Student.</p></div> 
-        <img class="bottomCloud" src="Images/cloud.png" alt="cloud">
-        <img src="Images/mountain.png" alt="mountain">    
-    </div>
-    <div class="middle">
-
-    </div>
-    <div class="bottom">
-
-    </div>
-   
+  <section>
+    <table cellspacing = "10">
+      <tr>
+        <td><img src="woman.png" height="150" width="150" alt=""></td>
+        <td><h1 style="text-align: unset;">Shravani Milind Jeurkar</h1>
+        <p><em>Student at <a href="https://www.atharvacoe.ac.in/">Atharva College Of Engineering</a>.</em></p>
+        <br>
+        <p>I am a second year student at <strong>ACOE, Malad (West), Marve Road</strong>, currently persuing the degree of <strong>'Bachelore in Engineering'</strong> in Information and Technology. I am very interested in learning the web development, as it needs the special skills of coding, imagining, and implementing the imagination. I am looking ahed to complete the web development course in at least 1 month's time.</p></td>
+      </tr>
+    </table>
+  </section>
+  <hr>
+  <section class="Edu">
+    <h3>Education:</h3>
+    <ul>
+      <li>Primary and Secondary High School(SSC) at Kalyan, School name: Don Bosco High School.</li>
+      <li>Higher Secondary School at Kalyan, College name: <a href="https://www.kmagrawalcollege.org/">Agrawal College Of Arts Science and Commerce</a>.</li>
+      <li>Currently Graduating at <strong>Atharva Colege Of Engineering</strong>, in Information Technology branch.</li>
+    </ul>
+  </section>
+  <hr>
+  <section class="Skill">
+    <h3>Skills:</h3>
+    <table cellspacing = "10">
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>Data Structure(Using C)</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>C++</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>C</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Dancing</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Cooking</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </section>
+  <br>
+  <hr>
+  <footer>
+    <a href="hobbies.html">My Hobbies</a>,
+    <a href="contacts.html">Contact</a>
+    <p>© Site by Shravani M Jeurkar</p>
+  </footer>
 </body>
+
 </html>
